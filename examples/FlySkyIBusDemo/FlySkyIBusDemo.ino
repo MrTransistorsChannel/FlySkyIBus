@@ -5,6 +5,8 @@
  
 #include <FlySkyIBus.h>
 
+FlySkyIBus IBus;
+
 void setup() 
 {
   Serial.begin(115200);
